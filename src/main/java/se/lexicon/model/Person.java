@@ -9,6 +9,9 @@ public class Person {
     private String lastName;        //Field
     private LocalDate birthDate;    //Field
 
+    /*
+    Getters and Setters start
+     */
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
@@ -32,4 +35,8 @@ public class Person {
     public LocalDate getBirthDate(){
         return birthDate;
     }
+
+    /*
+    Getters and Setters end
+     */
 }
